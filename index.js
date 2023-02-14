@@ -69,7 +69,7 @@ function dataToJson(data, { rule, key: isKey, notMatchFilename }) {
 function writeFile(jsonData, options) {
   const { output, module } = options;
   // 获取输出路径及文件类型，默认为单前文件夹ts文件
-  const [path, fileOrSuffix] = output.split("**");
+  const [path, fileOrSuffix] = output.split('**');
   const [filename, suffix] = fileOrSuffix.split(".");
   // 需要export的文件类型
   const isExportType = ["ts", "js"];
