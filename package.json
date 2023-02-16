@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "damTxt" : "april -i supETL.xlsx -m etl -o ./国际化/damTxt/**.txt",
-    "damJson" : "april -i supETL.xlsx -m etl -o ./国际化/damJson/**.json",
+    "damTxt" : "april -i supETL.xlsx -m dam -o ./国际化/damTxt/**.txt",
+    "damJson" : "april -i supETL.xlsx -m dam -o ./国际化/damJson/**.json",
     "etlTxt" : "april -i supETL.xlsx -m etl -o ./国际化/etlTxt/**.txt",
     "etlJson" : "april -i supETL.xlsx -m etl -o ./国际化/etlJson/**.json"
   },
