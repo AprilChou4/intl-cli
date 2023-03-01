@@ -757,6 +757,8 @@
   "dataModel.text.t127": "数 据 标 准",
   "dataModel.text.t128": "版 本 管 理",
   "dataModel.text.t129": "数 据 预 览",
+  "dataModel.text.t130": "该模型的数据变化将实时同步至消息队列，并产生磁盘占用。",
+  "dataModel.text.t131": "非必要不开启，请确认是否开启？",
   "dataModel.column.fieldName": "字段名",
   "dataModel.column.showName": "中文名",
   "dataModel.column.dataType": "数据类型",
